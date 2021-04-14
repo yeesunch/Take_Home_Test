@@ -2,10 +2,10 @@
 
 ## 1. Instruction for running script locally
 1. Make sure you have installed following packages:
-  * pandas
-  * statsmodels
-  * json
-  * urllib
+    1. pandas
+    2. statsmodels
+    3. json
+    4. urllib
 2. The output message is the result of Linear regression model
 
 ## 2. Data Cleansing

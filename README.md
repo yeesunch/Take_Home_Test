@@ -35,29 +35,4 @@ The AIC(1785) and BIC(1801) are too high, which means both our model fitting and
 The p-value of F-statistic is very small, which means the overall significance in this regression looks great.
 
 ## 6. Output of Summary
-
-OLS Regression Results                             
-------------------------------------------------------------------------------------
-Dep. Variable:     surgeries_this_month   R-squared:                       0.945
-Model:                              OLS   Adj. R-squared:                  0.944
-Method:                   Least Squares   F-statistic:                     842.5
-Date:                  Tue, 13 Apr 2021   Prob (F-statistic):          8.39e-122
-Time:                          20:23:14   Log-Likelihood:                -887.42
-No. Observations:                   200   AIC:                             1785.
-Df Residuals:                       195   BIC:                             1801.
-Df Model:                             4                                         
-Covariance Type:              nonrobust                                         
-------------------------------------------------------------------------------------
-                           coef    std err          t      P>|t|      [0.025      0.975]
-----------------------------------------------------------------------------------------
-age_in_yrs              -0.0247      0.139     -0.177      0.859      -0.300       0.250
-surgeries_last_month     1.1997      0.022     55.711      0.000       1.157       1.242
-service_id_1             3.1536      7.719      0.409      0.683     -12.069      18.376
-service_id_2            34.4692      7.711      4.470      0.000      19.262      49.677
-service_id_3           -12.8496      7.521     -1.708      0.089     -27.683       1.984
-------------------------------------------------------------------------------
-Omnibus:                        6.471   Durbin-Watson:                   2.196
-Prob(Omnibus):                  0.039   Jarque-Bera (JB):                5.018
-Skew:                          -0.278   Prob(JB):                       0.0814
-Kurtosis:                       2.459   Cond. No.                     1.31e+03
-------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/26566294/114658478-b4fe4900-9ca6-11eb-8a82-5108f6c82f72.png)

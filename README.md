@@ -36,8 +36,9 @@ The p-value of F-statistic is very small, which means the overall significance i
 
 ## 6. Output of Summary
 
+
 OLS Regression Results                             
-================================================================================
+------------------------------------------------------------------------------------
 Dep. Variable:     surgeries_this_month   R-squared:                       0.945
 Model:                              OLS   Adj. R-squared:                  0.944
 Method:                   Least Squares   F-statistic:                     842.5
